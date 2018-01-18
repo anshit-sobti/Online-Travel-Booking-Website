@@ -1,0 +1,1360 @@
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+
+}
+li {
+  float: left;
+  margin-left: 4%;
+  color:white;
+  margin-top: 0.2%;
+}
+li>a {
+  color: white;
+}
+
+.logo {
+  float:left;
+  margin-left: 50px;
+}
+
+.body-header {
+  width: 90%;
+  padding-left: 2%;
+}
+
+.container-header {
+  height: 50px;
+  padding-top:0.7%;
+  background-color: black;
+}
+
+.container-header1 {
+    height: 50px;
+    padding-top:0.7%;
+
+}
+
+.container-mainbody {
+
+  height: 400px;
+  padding-top:1%;
+}
+
+.displayText {
+  text-align: center;
+}
+
+.tabs {
+  margin-left:25%;
+  text-align: center;
+}
+.tab {
+  float: left;
+  width: 140px;
+  height:43px;
+  background-color: white;
+  margin-left: 2px;
+  padding-left: 18px;
+  padding-top: 7px;
+}
+
+.main-content {
+  width: 80%;
+  height: 180px;
+  background-color: #D3D3D3;
+  margin-top:8px;
+  padding-left: 2%;
+  margin-top: 0.25%;
+  margin-left: 8%;
+}
+.dropoff {
+
+  font-size: 13px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.arrow {
+  width: 70%;
+  height: 30px;
+  background-color: black;
+  background-image: url('./arrow1.png');
+
+
+}
+
+.opener-image {
+  /*background-image: url('./0.jpeg');*/
+  background-image: url('./kbg.png');
+  background-size: cover;
+
+}
+
+.displayText {
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+}
+
+.container-stayUptoDate {
+  width:73%;
+  height: 184px;
+  background-color: #F8F8F8;
+  padding-top: 15px;
+  margin-top: 6.5%;
+  margin-left: 13%;
+}
+
+
+.text1 {
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, sans-serif!important;
+  font-size: 20px;
+  font-weight: 600!important;
+}
+
+.pic {
+    width:295px;
+    height: 200px;
+    background-color: red;
+}
+
+.description {
+    width: 295px;
+    height: 140px;
+
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+/* css for beautiful grid down the main page */
+
+.container-beautifuldown {
+    width: 80%;
+    height: auto;
+    margin-left: 14%
+}
+.first{
+    width: 88%;
+    height: 550px;
+
+}
+.second{
+    width: 88%;
+    height: 395px;
+
+}
+
+.first-left, .first-mid, .first-right {
+    width:33%;
+    height:400px;
+
+    float:left;
+    margin-left:0.30%;
+    padding: 2%;
+}
+.first-top {
+    width: 100%;
+    margin-top:2px;
+    height: 140px;
+
+    margin-bottom: 3px;
+    text-align: center;
+    padding-top:15px;
+
+}
+
+.second-left, .second-mid, .second-right {
+    width:32%;
+    height:290px;
+
+    float:left;
+    margin-left:0.90%;
+}
+.second-top {
+    width: 100%;
+    margin-top:2px;
+    height: 90px;
+
+    margin-bottom: 3px;
+    text-align: center;
+
+}
+
+.first-left-tabs {
+    width:90%;
+    height: 13%;
+
+}
+
+.first-left-tabs-text {
+    float: left;
+    width: 70%;
+    height: 60%;
+
+    text-align:left;
+    padding-left: 10%
+}
+
+.first-left-tabs-butt {
+    float:right;
+    margin-right:0px;
+    margin-top: 1.7%;
+
+    -webkit-appearance: none;
+    border: none;
+    background: none !important;
+    border-top: 0;
+    padding: 0! important;
+}
+
+.her {
+
+}
+.second-left {
+    background-image: url('./down1.png');
+}
+
+.second-mid {
+    background-image: url('./down2.png');
+}
+.second-right {
+    background-image: url('./down3.png');
+}
+.second-left:hover, .second-mid:hover, .second-right:hover {
+  -moz-transform: scale(1.1);
+
+  box-shadow: 0 0 15px gray;
+
+}
+/* css for beautiful grid down the main page ends here......*/
+
+.Well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
+.first-left-tabs-text>h5 {
+    color: #1E90FF;
+}
+
+.leftFilterCars {
+    width: 17%;
+    height: auto;
+    border: 1px solid;
+    border-color: #D3D3D3;
+    display: inline;
+    float:left;
+    margin-top: 23px;
+    margin-left: 1.5%;
+    background-color: white;
+}
+
+.leftFilterHotels {
+    width: 17%;
+    min-height: 600px;
+    border: 1px solid;
+    display: inline;
+    float:left;
+    margin-top: 5px;
+}
+
+.middle-pane {
+    width: 100%;
+    min-height: 600px;
+}
+
+.mid-cartile {
+    width: 59%;
+    height: auto;
+
+    float: left;
+    display: inline;
+
+    padding-left: 0.5%;
+    padding-right: 1%;
+    padding-top: 0.3%;
+    margin-left: 1.5%;
+}
+
+.mid-hoteltile {
+    width: 59%;
+    height: auto;
+
+    float: left;
+    display: inline;
+    padding-left: 0.5%;
+    padding-right: 1%;
+
+    margin-left: 1.5%;
+}
+.outerDiv {
+    width: 98%;
+    height: 180px;
+
+    margin-left: 0.9%;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: white;
+
+    margin-top: 10px;
+}
+
+.outerDiv-left {
+    width: 55%;
+    height: 98%;
+
+    display: inline;
+    float: left;
+}
+
+.outerDiv-left-hotel {
+    width: 55%;
+    height: 98%;
+
+    display: inline;
+    margin-left: 10%;
+}
+
+.outerDiv-mid {
+    width: 25%;
+    height: 98%;
+    padding-right: 10px;
+    float: left;
+    border-right: 1px solid;
+    border-color: #D3D3D3;
+}
+.outerDiv-right {
+    width: 20%;
+    height: 98%;
+
+    float: left;
+    text-align: center;
+}
+.outerDiv-left-top {
+    width: 100%;
+    height: 64%;
+    border-bottom: 1px  solid;
+    border-color: #D3D3D3;
+    margin-left: 10px;
+
+}
+
+.outerDiv-left-hotel-top {
+    width: 100%;
+    height: 64%;
+    border-bottom: 1px  solid;
+    border-color: #D3D3D3;
+    margin-left: 10px;
+
+}
+
+.outerDiv-left-bottom {
+    width: 100%;
+    height: 34%;
+
+    margin-top: 1%;
+    margin-left: 8px;
+}
+
+.outerDiv-left-hotel-bottom {
+    width: 100%;
+    height: 34%;
+
+    margin-top: 1%;
+    margin-left: 8px;
+}
+
+.outerDiv-left-top-icons {
+    width: 100%;
+    height: 40%;
+
+}
+
+.mainBodyCar {
+    background-color: #f1f1f1;
+
+}
+
+.mainBodyHotel {
+    background-color: #f1f1f1;
+}
+.main-pane-carcheckout {
+    width: 60%;
+    height: auto;
+    float : left;
+    margin-left: 15%;
+}
+
+.main-pane-hotelcheckout {
+    width: 70%;
+    height: auto;
+    float : left;
+    margin-left: 15%;
+}
+
+.main-pane-flightcheckout {
+    width: 60%;
+    height: auto;
+    float : left;
+    margin-left: 15%;
+}
+
+.right-pane-carcheckout {
+    width: 20%;
+    height: 600px;
+    border: 1px solid;
+    float : left;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.right-pane-flightcheckout {
+    width: 20%;
+    height: 600px;
+    border: 1px solid;
+    float : left;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.outerDiv-left-carCheckoutDetails {
+    width: 70%;
+    height: 98%;
+    margin-top: 0.3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    float: left;
+}
+
+.outerDiv-right-carCheckoutDetails {
+    width: 30%;
+    height: 98%;
+    margin-top: 0.3%;
+
+    float: left;
+    padding:4%;
+    padding-left: 7%;
+}
+
+.outerDiv-left-carCheckoutDetails1 {
+    width: 35%;
+    height: 98%;
+    margin-top: 0.3%;
+
+    float: left;
+    padding-left: 1%;
+}
+
+.outerDiv-right-carCheckoutDetails1 {
+    width: 30%;
+    height: 98%;
+    margin-top: 0.3%;
+
+    float: left;
+    padding:4%;
+    padding-left: 7%;
+}
+
+.outerDiv-mid-carCheckoutDetails1 {
+    width: 35%;
+    height: 98%;
+    margin-top: 0.3%;
+
+    float: left;
+    padding-left: 1%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+   border-top: none;
+}
+
+
+.body-success {
+    width: 60%;
+    height: 500px;
+    border: 1px solid;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    background-color: gray;
+    margin-top: 120px;
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+.text-success {
+    color: Green;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.icon-success {
+    margin-left: 400px;
+}
+
+#footerImage{
+  width: 100%;
+  height: 100%;
+}
+
+.choose{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.createList{
+    height: 40px;
+    width: 100%;
+}
+
+.createListTitle{
+    float: center;
+    textAlign: center;
+    padding-right: 41%;
+    font-size: 16px;
+}
+
+.bgpage{
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+
+.signup{
+
+    width: 260%;
+    background-color: #ff690f;
+}
+
+.singin{
+    width: 300%;
+    border:1px solid #ff690f;
+    background-color: white;
+    color: #ff690f;
+}
+
+.trips{
+    padding-top: 100px;
+}
+
+.closeModal{
+    float: right;
+}
+.footerModal{
+
+    background-color: rgb(225, 225, 229);
+    color: rgb(139, 139, 142);
+}
+.footerModalSignIn{
+
+    background-color: white;
+}
+.checkbox_label{
+    color: #558fe6;
+}
+
+.modal_signup{
+    background-color: rgb(84, 84, 86);
+    color: white;
+}
+
+
+
+.field {
+
+}
+
+.tab:hover {
+    color: #ff690f;
+    fill: #ff690f;
+}
+
+.mainBodyLeftFilterCars {
+    padding: 5%;
+}
+.starFilter {
+    width: 90%;
+    height: 60px;
+    border: 1px solid;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.priceFilter {
+    width: 90%;
+    height: 70px;
+    border: 1px solid;
+    margin-top: 5%;
+}
+
+/* css for star filter goes below */
+
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+
+/* css for star filter ends here */
+
+/* css for My Account dropdown starts here */
+
+.dropbtn {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+}
+
+.dropdown-content button {
+    color: black;
+    width: 80%;
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 10%;
+    border: 1 px solid;
+    border-color: orange;
+    border-radius: 0px;
+    margin-top: 5%;
+}
+
+.dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: 5%;
+}
+
+.dropdown-content span:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* css for My Account dropdown ends here */
+
+.outerDiv-hotel {
+    width: 98%;
+    height: 180px;
+
+    margin-left: 0.9%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.outerDiv-flight {
+    width: 98%;
+    height: 140px;
+
+    margin-left: 0.9%;
+    margin-top: 0.5%;
+    background-color: white;
+}
+
+.outerDiv-hotel-left {
+    width: 28%;
+
+    height: 99%;
+    margin-top: 1px;
+    display: inline;
+    float: left;
+
+    background-size: cover;
+}
+
+.outerDiv-flight-left {
+    width: 20%;
+
+    height: 99%;
+    margin-top: 1px;
+    display: inline;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.outerDiv-hotel-mid {
+    width: 49%;
+    border-right: 1px solid;
+    border-color: #dddddd;
+    height: 99%;
+    margin-top: 1px;
+    float: left;
+    display: inline;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.outerDiv-flight-mid {
+    width: 54%;
+    border-right: 1px solid;
+    padding-right: 2%;
+    border-color: #dddddd;
+    height: 99%;
+    margin-top: 1px;
+    float: left;
+    display: inline;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+.outerDiv-hotel-right {
+    width: 20%;
+    border-left: 1px;
+    border-color: #dddddd;
+    height: 99%;
+    margin-top: 1px;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.hoteltileStrap {
+    width: 97%;
+    height: 22%;
+
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-top: 6%;
+}
+
+.flighttileStrap {
+    width: 97%;
+    height: 22%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-top: 2%;
+
+}
+.rating-small {
+    width: 9%;
+    height:64%;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #09f;
+    padding-left: 3.1%;
+    padding-top: 1%;
+    float: left;
+    display: inline;
+    font-weight: bold;
+}
+
+
+.reviews-hotel{
+    float: left;
+    display: inline;
+    width: 20%;
+    height: 85%;
+
+    margin-left: 5%;
+    padding-left: 1%;
+    padding-top: 0.1%;
+}
+
+.location-hotel {
+    float: left;
+    display: inline;
+    width: 20%;
+    height: 85%;
+
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-top: 0.1%;
+}
+
+.available-rooms {
+    float: left;
+    width: 30%;
+    height: 85%;
+
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-top: 0.1%;
+}
+
+.hotel-vendor {
+    width: 22%;
+    height: 97%;
+
+    float: left;
+    display: inline;
+    margin-left: 2%;
+}
+
+
+.outerDiv-hotelcheckout1 {
+    width: 98%;
+    height: 220px;
+
+    margin-left: 0.9%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.outerDiv-hotelcheckout-left {
+    width: 37%;
+    height: 99%;
+
+    float: left;
+    display: inline;
+}
+
+.outerDiv-hotelcheckout-right {
+    width: 62%;
+    height: 99%;
+
+    float: left;
+    display: inline;
+    margin-left: 1%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.outerDiv-hotelcheckout2 {
+    width: 98%;
+
+    margin-left: 0.9%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.outerDiv-hotelcheckout2-top {
+    width: 100%;
+    height: 40px;
+
+    padding-top: 1%;
+    text-align: center;
+}
+.outerDiv-hotelcheckout2-down {
+    width: 100%;
+    height: 240px;
+
+}
+
+.outerDiv-hotelcheckout2-down-top {
+    width: 100%;
+
+    height: 30%;
+    padding: 1%;
+}
+
+.outerDiv-hotelcheckout2-down-down {
+    width: 100%;
+
+    height: 70%;
+    padding: 1%;
+}
+
+.outerDiv-hotelcheckout2-down-down-left, .outerDiv-hotelcheckout2-down-down-right {
+    width: 40%;
+
+    height: 100%;
+    float: left;
+    display: inline;
+    padding: 1%;
+}
+
+.outerDiv-hotelcheckout3 {
+    width: 98%;
+    height: 170px;
+
+    margin-left: 0.9%;
+
+    background-color: white;
+
+}
+
+.outerDiv-hotelcheckout3-left {
+    width: 25%;
+    height: 130px;
+
+    float: left;
+    display: inline;
+    margin-left: 2%;
+}
+
+.outerDiv-hotelcheckout3-right {
+    width: 70%;
+    height: 130px;
+
+    float: left;
+    display: inline;
+}
+
+.amenitiesHotel {
+    display: inline;
+}
+
+.amenitiesHotel>i {
+    margin-left: 4%;
+}
+
+
+.first1, .second1, .third1
+{
+    width: 32%;
+    height: 100%;
+
+    display: inline;
+    float : left;
+    margin-left: 1%;
+
+}
+.first1 {
+    padding: 3%;
+}
+
+.outerDiv-flightcheckout1 {
+    width: 98%;
+    height: 130px;
+    border: 1px solid;
+    margin-left: 0.9%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.outerDiv-flightcheckout2 {
+    width: 98%;
+    height: 40px;
+    border: 1px solid;
+    margin-left: 0.9%;
+
+    background-color: white;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.outerDiv-flightcheckout3 {
+    width: 98%;
+    height: 50px;
+    border: 1px solid;
+    margin-left: 0.9%;
+    margin-top: 0.7%;
+    background-color: white;
+    padding: 2%;
+    background-color: #558fe6;
+    font-size: 18px;
+    color: white;
+}
+
+.outerDiv-flightcheckout4 {
+    width: 98%;
+    height: 50px;
+    border: 1px solid;
+    margin-left: 0.9%;
+    margin-top: 0.7%;
+    background-color: white;
+}
+.outerDiv-flightcheckout5 {
+    width: 98%;
+    height: 140px;
+    border: 1px solid;
+    margin-left: 0.9%;
+    background-color: white;
+    padding-top: 3%;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.outerDiv-flightcheckout6 {
+    width: 98%;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 0.9%;
+    margin-top: 0.7%;
+    background-color: white;
+}
+
+.flightLogo {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.body-header>ul>li>a:hover {
+    color: white;
+}
+
+
+
+.Kpiechart{
+    width: 30%;
+    height: auto;
+    margin-left: 0%;
+
+}
+
+.filterUserBills {
+    width: 18%;
+    float:left;
+    height: 100%;
+    min-height: 600px;
+    border : 1px solid;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    padding: 1%;
+}
+
+.choose{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.createList{
+    height: 40px;
+    width: 100%;
+}
+
+.createListTitle{
+    float: center;
+    textAlign: center;
+    padding-right: 41%;
+    font-size: 16px;
+}
+
+
+
+.editListButton{
+
+    margin-left: 10px;
+}
+
+.labelAddModify{
+    margin-right: 10px;
+}
+
+.modifyCar{
+    margin-top: 10px;
+}
+
+.submitModify{
+    margin-top: 7px;
+}
+
+.userbill{
+    margin-top: 20px;
+}
+
+.right-chart {
+    display: inline;
+    float: right;
+    margin-right: 30%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.decrement{
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    line-height: 22px;
+}
+.increment{
+    height: 24px;
+    width: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    line-height: 22px;
+}
+.quantity {
+    height: 24px;
+    width: 48px;
+    text-align: center;
+    margin-left:10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.addToCart{
+
+    margin-left: 10px;
+}
+
+.cartCheckout{
+    background-color: aliceblue;
+
+}
+.cartImage{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.itemname{
+
+    width:33.3%;
+}
+
+.rowitem{
+    width:33.3%;
+
+}
+
+.itemImage{
+
+    height:30px;
+    width: 30px;
+}
+
+.itemImage123{
+
+    height:25px;
+    width: 25px;
+}
+
+.tableHead{
+    text-align: center;
+    background-color: #ff690f;
+}
+
+.itemImage1{
+    height:180px;
+    width: 180px;
+}
+
+.add{
+    background-color: aliceblue;
+}
+.tableData{
+    text-align: center;
+}
+
+.billTitle{
+    color: black;
+    margin-left: 5%;
+    width: auto;
+    font-size: 18px;
+    padding-top: 20px;
+
+}
+
+.tableData1 .viewDetail{
+    visibility: hidden;
+}
+
+.tableData1:hover .viewDetail{
+    visibility: visible;
+    margin-left: 15px;
+}
+
+.uiNav{
+    display: inline;
+    float: left;
+}
+
+
+.table-bordered{
+    margin-top: 10px;
+}
+
+.iconBriefcase{
+    height:20px;
+    width: 20px;
+    float:left;
+    margin-right: 15px;
+
+}
+.iconBriefcase1{
+    height:20px;
+    width: 20px;
+    float:left;
+    margin-right: 15px;
+}
+.trips{
+    text-align: left;
+}
+
+.userProfileMain{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.filterUserBills {
+    width: 18%;
+    float:left;
+    height: 100%;
+    min-height: 600px;
+    border : 1px solid;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    padding: 1%;
+}
+
+.rightFillers {
+    width: 20%;
+    height: 600px;
+    float: left;
+    display: inline;
+
+    margin-top: 0.4%;
+}
+
+
+
+
+.LeftAdmin {
+    width: 13%;
+    height: auto;
+    background-color: #f1f1f1;
+    color: white;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+.rightAdmin {
+    width: 82%;
+    min-height: 500px;
+
+    float: left;
+    display: inline;
+    margin-left: 2%;
+    background-color: white;
+}
+
+.rightAdmin-inside {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
